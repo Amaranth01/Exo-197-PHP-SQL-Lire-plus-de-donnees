@@ -11,13 +11,21 @@ span{
 
 p{
     color: darkgreen;
-    width: 220px;
     padding-left: 20px;
+    width: 100%;
 }
 
 body{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 12px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.title {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 100%;
 }
